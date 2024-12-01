@@ -11,7 +11,7 @@ Repositório destinádo a Avaliação 3 correspondente à UC de Estrutura de Dad
 
 ## Visão Geral
 
-O projeto tem como objetivo fornecer uma ferramenta que auxilie pesquisadores e estudantes na análise de sequências de DNA e RNA em que os usuários poderão comparar, alinhar e interpretar sequências genéticas, promovendo avanços na biotecnologia e genética.
+O projeto tem como objetivo fornecer uma ferramenta que auxilie pesquisadores e estudantes na análise de sequências de DNA em que os usuários poderão comparar, alinhar e interpretar sequências genéticas, promovendo avanços na biotecnologia e genética.
 
 ## Tecnologias Utilizadas
 
@@ -20,6 +20,8 @@ O projeto tem como objetivo fornecer uma ferramenta que auxilie pesquisadores e 
 - Front-end: HTML, CSS, JavaScript 
 - Gerenciamento de Dependências: Maven
 - Controle de Versão: Git
+- Docker
+- Arquitetura: MVC
 
 ## Colaboradores 
 
