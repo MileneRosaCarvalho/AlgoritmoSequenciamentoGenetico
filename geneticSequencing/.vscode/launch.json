@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GeneticsequencingApplication<geneticsequencing>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.anhembi.geneticsequencing.GeneticsequencingApplication",
+            "projectName": "geneticsequencing",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
