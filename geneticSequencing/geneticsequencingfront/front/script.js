@@ -13,10 +13,9 @@ btnCopiar.addEventListener("click", copiar);
 async function getData() {
   let codigo = txtInput.value.replace(/\s+/g, '').trim().toUpperCase();
 
-    // Validação: Verificar se o código tem pelo menos 20 caracteres
   if (codigo.length < 20) {
     alert("A sequência de entrada deve ter pelo menos 20 caracteres.");
-    return; // Interrompe a execução se a condição não for atendida
+    return; 
   }
   
   let url = "http://host.docker.internal:8080/api/sequences/compare?inputSequence=" + codigo;
@@ -24,7 +23,7 @@ async function getData() {
   //let url = "http://172.17.0.2:8080/api/sequences/compare?inputSequence=" + codigo;
 
 
-  // let url = "http://localhost:8080/api/sequences/compare?inputSequence=" + codigo;
+   //let url = "http://localhost:8080/api/sequences/compare?inputSequence=" + codigo;
 
   document.querySelector(".conteudo_pesquisa").classList.add("hidden");
 
@@ -44,12 +43,11 @@ async function getData() {
 
     let formattedValue = parseFloat(value).toFixed(2) + "%";
 
-    if (value < 30) {
-      // Lógica para porcentagem inferior a 30%
+    if (value < 20) {
       document.querySelector("#campo_total").classList.remove("hidden");
       document.querySelector("#campo_errado").classList.remove("hidden");
       document.querySelector("#result_conteudo_btns_copiar").classList.add("hidden");
-      return; // Finaliza a execução para não continuar com o código restante
+      return; 
   }
     
     textOutput.value = "Índice Percentual: " + formattedValue + "\n" + "\n" + "Gene: " + name + "\n" + "\n" + "Descrição: " + description;
