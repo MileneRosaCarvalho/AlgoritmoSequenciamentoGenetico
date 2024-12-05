@@ -26,7 +26,6 @@ O projeto tem como objetivo fornecer uma ferramenta que auxilie pesquisadores e 
 ## Colaboradores 
 
 - Alana Ventura Maróstica
-- Julia Medina
 - Letícia Cruz Maynrd Joaquim
 - Milene Rosa Carvalho
 
